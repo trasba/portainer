@@ -1,27 +1,15 @@
 [
   {
-    "type": "stack",
-    "title": "node-red",
-    "description": "node-red (connected via swag)",
+    "type": "container",
+    "title": "Registry",
+    "description": "Docker image registry",
     "categories": ["docker"],
     "platform": "linux",
-    "repository": {
-      "url": "https://github.com/trasba/node-red",
-      "stackfile": "portainer/docker-compose.yml"
-    },
-    "env": [
-      {
-        "name": "TZ",
-        "label": "TZ",
-        "description": "timezone",
-        "default": "Europe/Berlin"
-      },
-      {
-        "name": "TCP",
-        "label": "TCP port",
-        "description": "(container=1880)",
-        "default": "1881:1880"
-      }
-    ]
+    "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
+    "image": "registry:latest",
+    "ports": [
+      "5000/tcp"
+    ],
+    "volumes": ["/var/lib/registry"]
   }
 ]
