@@ -1,5 +1,4 @@
-[
-  {
+{
   "type": 1,
   "title": "Nginx",
   "description": "High performance web server",
@@ -10,4 +9,3 @@
     "443/tcp"
   ]
 }
-]
