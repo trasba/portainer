@@ -962,6 +962,25 @@
 			}]
 		},
 		{
+			"type": 2,
+			"title": "node-red",
+			"description": "node-red connected to swag",
+			"categories": [
+				"docker"
+			],
+			"platform": "linux",
+			"repository": {
+				"url": "https://github.com/trasba/node-red",
+				"stackfile": "portainer/docker-compose.yml"
+			},
+			"env": [{
+				"name": "TZ",
+				"label": "TZ",
+				"description": "timezone",
+				"default": "Europe/Berlin"
+			}]
+		},
+		{
 			"type": 3,
 			"title": "Wordpress",
 			"description": "Wordpress setup with a MySQL database",
