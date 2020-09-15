@@ -1,6 +1,6 @@
 [
   {
-    "type": "container",
+    "type": container,
     "title": "Registry",
     "description": "Docker image registry",
     "categories": ["docker"],
