@@ -962,7 +962,7 @@
 			}]
 		},
 		{
-			"type": 3,
+			"type": 2,
 			"title": "node-red",
 			"description": "node-red connected to swag",
 			"categories": [
